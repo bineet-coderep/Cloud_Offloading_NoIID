@@ -1,0 +1,32 @@
+>> STATUS: Started Computing Optimal Offloading . . .
+Set parameter Username
+Academic license - for non-commercial use only - expires 2022-06-21
+	* Time Taken:  4.163139820098877
+>> STATUS: . . . Completed Computing Optimal Offloading!
+
+
+[8, 5, 5, 5, 7, 7, 1, 5, 1, 6, 1, 5, 1, 6, 1, 5, 1, 2, 1, 5, 1, 5, 1, 5, 1, 5, 1, 8, 1, 5, 1, 5, 1, 5, 1, 7, 1, 7, 1, 6, 1, 6, 1, 7, 1, 8, 1, 2, 7, 7, 1, 5, 2, 8, 1, 7, 1, 7, 1, 7, 4, 4, 2, 7, 4, 7, 4, 6, 6, 1, 6, 8, 2, 8, 2, 2, 7, 2, 6, 1, 6, 4, 5, 8, 6, 4, 5, 2, 7, 5, 5, 2, 2, 6, 8, 6, 1, 7, 6, 7, 7, 7, 2, 5, 2, 6, 6, 4, 4, 4, 2, 7, 4, 3, 6, 5, 5, 5, 5, 5, 3, 4, 7, 6, 5, 5, 4, 5, 7, 7, 6, 5, 7, 5, 7, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 3, 5, 5, 2, 5]
+> Stats
+	>> Labels:  ['Oracle', 'Optimal', 'Random', 'Cloud(b7)', 'Robot(b0)']
+	>> Rewards:  -3113470433344741.0 -3122875069215092.0 -4309758612118302.0 -3559247028020082.0 -1.131439026832774e+16
+	>> Per Cost:  0 6640000000000.0 6700000000000.0 12000000000000.0 1500000000000.0
+	>> Control Cost:  5189117388907850.0 5200365115359841.0 7178464353585527.0 5924078380071548.0 1.8856317113833676e+16
+(base) bineet@bineet-Alienware-Area-51m-R2:~/MyResearch/CloudOffloading_NoIID/Cloud_Offloading_NoIID/src$ 
+
+
+COST=1e10
+#COST=1
+
+MDL_ERR=0.001
+ACC_DIFF=0.001
+
+
+#ALPHA=10000
+#BETA=1
+
+#ALPHA=0.07
+#BETA=1
+
+ALPHA=0.6
+BETA=0.4
+
